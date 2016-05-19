@@ -2568,7 +2568,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #fff;
 }
 .btn-link {
-  color: #685D9F;
+  color: #000000;
   font-weight: normal;
   border-radius: 0;
 }
@@ -2588,7 +2588,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #48416f;
+  color: #000000;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -8889,7 +8889,7 @@ img.zoom-img {
 .stage-toggle:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #685D9F;
+  background-color: #000000;
 }
 .stage-toggle-right {
   left: auto;

@@ -2,7 +2,6 @@
 
 <?php get_header();?>
 
-  <div class="col-md-4">
-  </div>
+<h1> the thing no one will read!</h1>
 
 <?php get_footer(); ?>

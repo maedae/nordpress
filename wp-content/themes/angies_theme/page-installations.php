@@ -2,7 +2,8 @@
 
 <?php get_header();?>
 
-  <div class="col-md-4">
-  </div>
+  <h1> INSTALLATION ART </h1>
+  <p> art so big, you gotta walk around it! </p> 
+  <p>art so big, you can't comprehend it!</p>
 
 <?php get_footer(); ?>
