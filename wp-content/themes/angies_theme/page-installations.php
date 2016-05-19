@@ -1,4 +1,4 @@
-<?php /* Template Name: functional */ ?>
+<?php /* Template Name: installations */ ?>
 
 <?php get_header();?>
 

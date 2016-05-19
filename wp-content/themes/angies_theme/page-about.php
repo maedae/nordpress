@@ -1,4 +1,4 @@
-
+<?php /* Template Name: about */ ?>
 
 
 <?php get_header(); ?>
@@ -16,7 +16,6 @@
         <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
       </div>
-    </div>
     <?php endwhile; endif; ?>
   </div>
 

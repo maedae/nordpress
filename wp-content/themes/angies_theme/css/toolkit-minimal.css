@@ -8868,7 +8868,7 @@ img.zoom-img {
   left: 0;
   z-index: 0;
   width: 250px;
-  padding-top: 30px;
+  padding-top: 60px;
   background-color: #f2f2f2;
 }
 .stage-shelf-right {
@@ -8877,7 +8877,7 @@ img.zoom-img {
 }
 .stage-toggle {
   position: absolute;
-  top: 20px;
+  top: 0px;
   left: 20px;
   z-index: 100;
   padding: 4px 12px;
