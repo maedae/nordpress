@@ -5,6 +5,16 @@
     margin: 0 auto;
 }
 
+.modal-content-scroll {
+  overflow-y: scroll;
+}
+
+.v-align {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -602,8 +612,8 @@ a.bg-danger:focus {
 }
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 11px;
+  margin-top: 10;
+  margin-bottom: 10px;
 }
 ul ul,
 ol ul,
@@ -2233,26 +2243,26 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: transparent;
+  border-color: transparent;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #8c8c8c;
+  border-color: transparent;
 }
 .btn-default:hover {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: transparent;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: transparent;
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -2265,7 +2275,7 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default.focus {
   color: #333;
   background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  border-color: transparent;
 }
 .btn-default:active,
 .btn-default.active,
@@ -2282,7 +2292,7 @@ fieldset[disabled] .btn-default:focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
   background-color: #fff;
-  border-color: #ccc;
+  border-color: transparent;
 }
 .btn-default .badge {
   color: #fff;
@@ -3174,7 +3184,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 20px 30px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -5229,7 +5239,8 @@ body {
   width: 35px;
 }
 .modal-open {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .modal {
   display: none;
@@ -5340,7 +5351,7 @@ body {
 }
 @media (min-width: 992px) {
   .modal-lg {
-    width: 900px;
+    width: 75%;
   }
 }
 .tooltip {
@@ -5594,6 +5605,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%;
+  padding: 0;
 }
 .carousel-inner > .item {
   display: none;
@@ -5735,12 +5747,12 @@ body {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  top: 15px;
   left: 50%;
   z-index: 15;
   width: 60%;
   margin-left: -30%;
-  padding-left: 0;
+  padding: 0;
   list-style: none;
   text-align: center;
 }
@@ -5801,7 +5813,7 @@ body {
     padding-bottom: 30px;
   }
   .carousel-indicators {
-    bottom: 20px;
+    top: 20px;
   }
 }
 .clearfix:before,
@@ -8162,7 +8174,7 @@ fieldset[disabled] .btn-danger-outline.active {
 .block-inverse .btn-outline.btn-default {
   color: #fff;
   background-color: transparent;
-  border-color: #fff;
+  border-color: transparent;
 }
 .block-inverse .btn-outline.btn-default:focus,
 .block-inverse .btn-outline.btn-default.focus,
@@ -8192,7 +8204,7 @@ fieldset[disabled] .block-inverse .btn-outline.btn-default:active,
 .block-inverse .btn-outline.btn-default.disabled.active,
 .block-inverse .btn-outline.btn-default[disabled].active,
 fieldset[disabled] .block-inverse .btn-outline.btn-default.active {
-  border-color: #fff;
+  border-color: transparent;
 }
 .block-inverse .btn-outline.btn-default .badge {
   color: #fff;

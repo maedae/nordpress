@@ -2,6 +2,16 @@
 
 
 <?php get_header(); ?>
+
+
+<?php
+wp_nav_menu( array(
+    'theme_location' => 'about-menu',
+    'container' => '',
+    'menu_class'=> 'nav nav-bordered pull-right'
+ ) );
+?>
+
 <?php $about_image = get_field('about_image'); ?>
 <?php $name = get_field('name'); ?>
 <?php $artist_bio = get_field('artist_bio'); ?>
