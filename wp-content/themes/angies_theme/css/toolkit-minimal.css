@@ -1,8 +1,33 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /* custom content */
+
+.main-page--image{
+  background-size: cover;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(86,83,81,0.35);
+-moz-box-shadow: 10px 10px 5px 0px rgba(86,83,81,0.35);
+box-shadow: 10px 10px 5px 0px rgba(86,83,81,0.35);
+}
+
+.main-page--name {
+  opacity: 0.9;
+  text-shadow: 1px 1px #565351;
+  margin: 100px 0px 100px 0px !important;
+
+}
 .name .img-responsive {
     margin: 0 auto;
+}
+
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 .modal-content-scroll {
@@ -14,6 +39,17 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+.about-body-text {
+  font-size: 20px;
+}
+
+.cateogries--image-container {
+  max-width: 250px;
+  max-height: 250px;
+}
+/* ------------------------ */ 
+
 
 html {
   font-family: sans-serif;
@@ -533,6 +569,7 @@ mark,
 }
 .text-muted {
   color: #aaaaaa;
+  font-weight: 200;
 }
 .text-primary {
   color: #685D9F;
@@ -795,7 +832,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1020px;
+    width: 1120px;
   }
 }
 .container-fluid {
@@ -2584,7 +2621,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #fff;
 }
 .btn-link {
-  color: #000000;
+  color: #565351;
   font-weight: normal;
   border-radius: 0;
 }
@@ -2604,8 +2641,8 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #000000;
-  text-decoration: underline;
+  color: #565351;
+  text-decoration: none;
   background-color: transparent;
 }
 .btn-link[disabled]:hover,
@@ -7609,7 +7646,7 @@ body {
 }
 .nav-bordered > li > a {
   display: inline-block;
-  padding: 10px 0;
+  padding: 30px 0;
   font-weight: 300;
   color: #000;
   border-bottom: 4px solid transparent;
@@ -8121,7 +8158,7 @@ fieldset[disabled] .btn-danger-outline.active {
           transform: rotate(2deg);
 }
 .block-inverse .block-bg-img {
-  background-color: #000000;
+  background-color: #565351;
 }
 .block-bg-img-top {
   background-position: top;
@@ -8151,7 +8188,7 @@ fieldset[disabled] .btn-danger-outline.active {
 }
 .block-inverse {
   color: #fff;
-  background-color: #000;
+  background-color: #565351;
 }
 .block-inverse.block-bordered:before,
 .block-inverse hr {
@@ -8298,6 +8335,7 @@ fieldset[disabled] .block-inverse .btn-outline.btn-default.active {
 h1.block-title {
   font-size: 56px;
   line-height: 1;
+  font-weight: 300;
 }
 .block .lead {
   font-size: 18px;
@@ -8369,6 +8407,7 @@ h1.block-title {
   .h1.block-title,
   h1.block-title {
     font-size: 72px;
+    font-weight: 300;
   }
 }
 .navbar-transparent {
